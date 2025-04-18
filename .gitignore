@@ -1,0 +1,4 @@
+node_modules/
+static/uploads/
+segments/*.zip
+segments/*/
