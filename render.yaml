@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: video-splitter
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'node app.js'
+    envVars:
+      - key: NODE_VERSION
+        value: 18
